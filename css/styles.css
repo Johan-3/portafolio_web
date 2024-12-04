@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-color: #3EFFE5;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    background: no-repeat;
+    background-size: cover;
+    background-image: url(../img/fondo.png);
+}
+
+nav.bg-portafolio{
+    background: #000;
+    position: fixed;
+    top: 0;
+    left: 240px;
+    width: 70%;
+    margin-top: 30px;
+    z-index: 999;
+    border-radius: 100px;
+    border: 1px solid #ffffff;
+}
+
+nav.bg-portafolio ul li a{
+    color: #ffffff;
+    position: relative;
+    font-size: 20px;
+    transition: .4s;
+    margin-left: 110px;
+    padding: 10px;
+}
+
+nav.bg-portafolio ul li a:hover{
+    background: #3EFFE5;
+    opacity: 50%;
+    border-radius: 30px;
+}
+
+nav.bg-portafolio ul li.contacto{
+    margin-left: 120px;
+}
+
+header #hero{
+    width: 100%;
+    padding: 290px 0 90px;
+    text-align: center;
+}
+
+header #hero h2{
+    color: #ffffff;
+    font-family: "Bebas Neue", serif;
+    font-size: 80px;
+    margin-bottom: 130px;
+}
+
+header #hero p{
+    color: #cccccc;
+    font-family: "Anton", serif;
+    font-size: 24px;
+}
+
+main #section1{
+    position: relative;
+    width: 100%;
+    padding: 190px 0 0;
+    background: no-repeat;
+    background-size: cover;
+    background-image: url(../img/fondo.png);
+
+}
+
+#section1 img{
+    width: 220px;
+}
+
+#section1 h2{
+    color: #ffffff;
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-family: "Anton", serif;
+}
+
+#section1 p{
+    background-color: #0f0f0f;
+    text-align: center;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 80px;
+    font-family: "Anton", serif;
+}
+
+main #section2{
+    position: relative;
+    width: 100%;
+    padding: 150px 0 10px;
+    background: #000;
+
+}
+
+main #section2 h2{
+    color: #ffffff;
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 50px;
+    font-family: "Bebas Neue", serif;
+}
+
+main #section2 p{
+    color: #cccccc;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: "Anton", serif;
+}
+
+main #section2 h3{
+    padding: 20px 20px;
+    border: none;
+    background: transparent;
+    margin-top: 40px;
+    margin-left: 210px;
+    margin-bottom:40px;
+    font-family: "Anton", serif;
+}
+
+main #section2 h3{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#section2 .carta{
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    background: #0f0f0f;
+    position: relative;
+    border-radius: 50px;
+    margin: 30px;
+
+}
+
+#section2 .carta img{
+    width: 100%;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+main #section3{
+    position: relative;
+    width: 100%;
+    padding: 20px 0 10px;
+    background: #000;
+
+}
+
+main #section3 h3{
+    padding: 20px 20px;
+    border: none;
+    background: transparent;
+    margin-top: 40px;
+    margin-left: 210px;
+    margin-bottom:40px;
+    font-family: "Anton", serif;
+}
+
+main #section3 h3{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#section3 .carta{
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    background: #0f0f0f;
+    position: relative;
+    border-radius: 50px;
+    margin: 30px;
+
+}
+
+#section3 .carta img{
+    width: 100%;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+main #section4{
+    position: relative;
+    width: 100%;
+    padding: 20px 0 10px;
+    background: #000;
+
+}
+
+main #section4 h3{
+    padding: 20px 20px;
+    border: none;
+    background: transparent;
+    margin-top: 40px;
+    margin-left: 210px;
+    margin-bottom:40px;
+    font-family: "Anton", serif;
+}
+
+main #section4 h3{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#section4 .carta{
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    background: #0f0f0f;
+    position: relative;
+    border-radius: 50px;
+    margin: 30px;
+
+}
+
+#section4 .carta img{
+    width: 100%;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+main #section5{
+    position: relative;
+    width: 100%;
+    padding: 20px 0 10px;
+    background: #000;
+
+}
+
+main #section5 h3{
+    padding: 20px 20px;
+    border: none;
+    background: transparent;
+    margin-top: 40px;
+    margin-left: 210px;
+    margin-bottom:40px;
+    font-family: "Anton", serif;
+}
+
+main #section5 h3{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#section5 .carta{
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    background: #0f0f0f;
+    position: relative;
+    border-radius: 50px;
+    margin: 30px;
+
+}
+
+#section5 .carta img{
+    width: 100%;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+main #section6{
+    position: relative;
+    width: 100%;
+    padding: 140px 0 90px;
+    background: no-repeat;
+    background-size: cover;
+    background-image: url(../img/fondo.png);
+
+}
+
+main #section6 .parr_p{
+    width: 30%;
+}
+
+main #section6 p{
+    color: #ffffff;
+    font-family: "Anton", serif;
+}
+
+main #section6 p.parr1{
+    font-size: 30px;
+    margin-right: 100px;
+    position: absolute;
+}
+
+main #section6 p.parr2{
+    font-size: 25px;
+    padding-top: 250px;
+    margin-right: 400px;
+    position: absolute;
+}
+
+main #section6 p.parr3{
+    font-size: 35px;
+    padding-top: 600px;
+    margin-left: 180px;
+    position: absolute;
+}
+
+main #section6 .imagen1 img{
+    width: 300px;
+    position: relative;
+}
+
+main #section6 .imagen1 .dib_position{
+    margin-left: 150px;
+    padding-top: 300px;
+}
+
+main #section6 .imagen1 .dib_position div{
+    position: absolute;
+    z-index: 100;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+main #section6 .imagen2 img{
+    width: 250px;
+    margin-left: 200px;
+    padding-top: 50px;
+}
+
+main #section7{
+    position: relative;
+    width: 100%;
+    background: #000000;
+    padding: 110px 0 0;
+}
+
+#section7 .cuadro1{
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    background: #0f0f0f;
+    position: relative;
+    border-radius: 50px;
+    margin: 50px;
+}
+
+#section7 .cuadro1 img{
+    padding: 30px;
+}
+
+#section7 .cuadro1 h2{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: "Anton", serif;
+}
+
+#section7 .cuadro1 .email1 img{
+    width: 120px;
+}
+
+#section7 .cuadro1 .telefono1 img{
+    width: 120px;
+    padding-top: 15px;
+}
+
+#section7 .cuadro1 p{
+    color: #ffffff;
+    margin: 40px 10px;
+    font-family: "Anton", serif;
+}
+
+#section7 .cuadro2{
+    align-items: center;
+    justify-content: center;
+    width: 59%;
+    background: #0f0f0f;
+    position: relative;
+    border-radius: 50px;
+    margin: 50px;
+}
+
+#section7 .cuadro2 h3{
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 90px;
+    font-family: "Bebas Neue", serif;
+}
+
+#section7 .cuadro2 .git1 img{
+    width: 80px;
+    padding-bottom: 90px;
+    margin-left: 250px;
+}
+
+#section7 .cuadro2 .link1 img{
+    width: 80px;
+    padding-bottom: 90px;
+    margin-left: 250px;
+}
+
+#section7 .cuadro2 .face1 img{
+    width: 80px;
+    margin-left: 250px;
+}
+
+#section7 .cuadro2 a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Bebas Neue", serif;
+    font-size: 40px;
+    margin: 120px;
+}
+
+footer{
+    background-color: #3EFFE5;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    nav.bg-portafolio {
+        background-color: #3EFFE5;
+        width: 100%;
+        left: 0;
+        margin-top: 10px;
+        border-radius: 0;
+    }
+
+    nav.bg-portafolio ul li a{
+        color: #000000;
+        margin: 0;
+    }
+
+    nav.bg-portafolio ul li.contacto{
+        color: #000000;
+        margin: 0;
+    }
+
+    header #hero h2 {
+        font-size: 60px;
+        margin-bottom: 80px;
+    }
+
+    header #hero p {
+        font-size: 18px;
+    }
+
+
+    #section1 img {
+        width: 180px;
+    }
+
+    #section1 h2 {
+        font-size: 28px;
+    }
+
+    #section1 p {
+        font-size: 16px;
+    }
+
+    #section2 .carta, #section3 .carta, #section4 .carta, #section5 .carta {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    #section2 .carta h3{
+        margin: 100px;
+    }
+    #section3 .carta h3{
+        margin: 100px;
+    }
+    #section4 .carta h3{
+        margin: 100px;
+    }
+    #section5 .carta h3{
+        margin: 100px;
+    }
+
+    main #section6 .parr_p {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    main #section7 {
+        position: relative;
+        width: 100%;
+        padding: 50px 0;
+        background: #000;
+    }
+    
+    #section7 .cuadro1,
+    #section7 .cuadro2 {
+        background: #0f0f0f;
+        border-radius: 20px;
+        padding: 15px;
+        margin: 15px auto;
+    }
+    
+    #section7 .cuadro1 img {
+        width: 120px;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto 15px;
+    }
+    
+    #section7 .cuadro1 h2 {
+        color: #ffffff;
+        font-family: "Anton", serif;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    #section7 .cuadro1 p {
+        color: #ffffff;
+        font-family: "Anton", serif;
+        text-align: center;
+        margin: 5px 0;
+    }
+    
+    #section7 .cuadro2 h3 {
+        color: #ffffff;
+        font-family: "Anton", serif;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    #section7 .cuadro2 a {
+        margin: 50%;
+        font-family: "Anton", serif;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    
+    #section7 .cuadro2 a:hover {
+        text-decoration: underline;
+        color: #ffffff;
+    }
+    
+    #section7 .cuadro2 img {
+        width: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
